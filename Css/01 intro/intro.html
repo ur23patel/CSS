@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* selector { property:value } */
+        h4{ color:blueviolet; font-size: 38px; }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>CSS</h3>
+    <p>Casecading StyleSheet</p>
+    <p>CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users.</p>
+    <p>CSS is designed to make style sheets for the web. It is independent of HTML and can be used with any XML-based markup language. Now let’s try to break the acronym:</p>
+    <ul>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cascading: Falling of Styles</li>
+        
+        
+        
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style: Adding designs/Styling our HTML tags</li>
+        
+        
+        
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sheets: Writing our style in different documents</li>
+        </ul>
+        <h3>Css Syntax</h3>
+        <p>CSS comprises style rules that are interpreted by the browser and then applied to the corresponding elements in your document.
+            A style rule set consists of a selector and declaration block.</p>
+         <p>Selector -- h1
+            Declaration -- {color:blue;font size:12px;} </p>
+            <ul><li>The selector points to the HTML element you want to style.</li><li>The declaration block contains one or more declarations separated by semicolons.</li><li>Each declaration includes a CSS property name and a value, separated by a colon.<br>For Example:<p></p><div id="GFG_AD_Desktop_InContent_ATF_336x280" style="text-align:center"></div><pre><code>color</code> is property and <code>blue</code> is value.<br><code>font-size</code> is property and <code>12px</code> is value.</pre></li><li>CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.</li></ul>
+            
+    
+            <h3>There are 3 ways to write CSS in our HTML file</h3>
+    <ol>
+        <li>Inline (not recommanded)</li>
+        <li>Internal (not prefrabble/not easy to apply in multiple pages)</li>
+        <li>External (recommanded, prefrabble and correct way to apply css)</li>
+    </ol>
+    <ul>
+        <li>Inline &gt; Internal &gt; External</li>
+        </ul>
+    <h3>Inline Css</h3>
+    <p>Within tag wit the help of style attribute</p>
+    <ul>
+        <li>Before CSS this was the only way to apply styles</li>
+        <li>Not an efficient way to write as it has a lot of redundancy</li>
+        <li>Self-contained&nbsp;</li>
+        <li>Uniquely applied on each element</li>
+        <li>The idea of separation of concerns was lost</li>
+        </ul>
+    <p>opening tag style="prop:value;"</p>
+    &lt;h2 style="color: rgb(114, 165, 42);font-size: 56px;"&gt;Inline CSS Example&lt;/h2&gt;
+    
+    <h3>Internal Css</h3>
+    <p>Within page in head sec prefferable applied for all selectors which is definded style tag will help to define internal css</p>
+    <ul>
+        <li>With the help of style tag, we can apply styles within the HTML file</li>
+        <li>&nbsp;Redundancy is removed</li>
+        <li>But the idea of separation of concerns still lost</li>
+        <li>Uniquely applied on a single document</li>
+        </ul>
+    
+    <h3>External CSS</h3>
+    <p>recommanded by W3C</p>
+    <p>mainly we use it because it will applied for multiple pages</p>
+    <ul>
+        <li>With the help of &lt;link&gt; tag in the head tag, we can apply styles</li>
+        <li>Reference is added&nbsp;</li>
+        <li>File saved with .css extension</li>
+        <li>Redundancy is removed</li>
+        <li>The idea of separation of concerns is maintained</li>
+        <li>Uniquely applied to each document</li>
+        </ul>
+    
+</body>
+</html>
