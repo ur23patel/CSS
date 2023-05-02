@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex Task 4</title>
+    <style>
+        * {
+            box-sizing:border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif ;
+               
+        }
+
+        .container {
+            display:flex;
+            background-color: beige;
+        }
+
+        div[class*="card"] {
+            border:2px solid;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+
+         h1, p{
+            margin-bottom: 20px;
+          
+        }
+
+
+        span {
+            color: red;
+        }
+
+        .f-card {
+            background-color: rgb(66, 66, 238);
+            color: white;
+            flex:auto;
+            
+        }
+        
+        .s-card {
+            background-color: rgb(45, 155, 150);
+            color: white;
+            flex-shrink: 1;
+        }
+        
+        .t-card {
+            background-color: rgb(170, 60, 197);
+            color: white;
+            
+        }
+    </style>
+</head>
+
+            <body>
+                <h1>Default Setup</h1>
+                <p>Defult setup of flex properties is <span> flex: 0 1 auto</span>. Thats shorthand for <span> flex-grow </span>. <span>flex-shrink </span>. and <span>flex-bassis</span>
+                     properties values.
+                <br>This setup basically tells us:"All the flex children <b> should not grow.should shrink</b> at the same rate and have their <b> initial
+                     size based on their width or height</b>"</p>
+            
+                <div class="container">
+                    <div class="f-card">
+                        <p>
+                        <h4> First card</h4>On the other hand,we denounce with righteous indignation and dislike
+                         men who are so beguiled and demoralized by the charms of pleasure of the moment,
+                         so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensure;
+                         and equal blame belongs to those who fail in their duty through weakness of will, 
+                         which is the same as saying through shrinking from toil and pain.
+                    </p>
+            
+                    </div>
+
+                    <div class="s-card">
+                        <p>
+                        <h4>Second card</h4> I'm the shortest</p>
+                    </div>
+                    <div class="t-card">
+                        <p>
+                        <h4>Third-card</h4>But in certain circumstances and owing to the claims of duty or the obligations of business
+                         it will frequently occur that pleasures have to be repudiated aand annoyances accepted.</p>
+                    </div>
+                </div>
+            </body>
+            
+            </html> 
+
+        
