@@ -1,52 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <title>title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex Task 3</title>
     <style>
-         * {
-            box-sizing: border-box;
+        * {
+            box-sizing: content-box;
             margin: 0;
-            padding: 0;   
-          }           
-      body {
-       margin: 10px;
-       padding:10px;
-      font-family: san-serief;
-      }
-.container {
-  display: flex;
-  align-items: flex-end;
-  min-height: 200px; 
-  border: 1px solid; 
-}
-div{
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 0;
-    justify-content:flex-start;
-   background-color: gray;
-}
-.container > div {
-  padding: 20px;
-  background: #56e499;
-  border: 1px solid teal; 
-}
+            padding: 0;
+        }
 
-.container > div:nth-child(1) {
-  align-self: stretch;
-}
+        .container {
+            background-color: gray;
+            display: flex;
+            flex-direction: row;
 
-.container > div:nth-child(2) {
-  align-self: flex-start;
-}
+        }
 
-      </style>
-      </head>
-      <body>
-        <div class="container">
-          <div class="one">One</div>
-          <div class="two">Two</div>
-          <div class="three">Three</div>
-        </div>
-      </body>
+        div[class*="box"] {
+            background-color: green;
+            border: 1px solid;
+            padding: 5px;
+        }
+       .box1 { height: 150px; }
+       .box2 { height:20px; }
+          .second{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: baseline;
+           }
+        .box3 { height:20px; }
+        .third{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: end;
+           }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">One</div>
+        <div class="second">
+            <div class="box2">Two</div>
+         </div>
+         <div class="third">
+        <div class="box3">Three</div>
+    </div>
+</div>
+</body>
+
+</html>
