@@ -14,29 +14,30 @@
         }
 
         .container {
+             display: flex;
             background-color: gray;
-            display: flex;
-            flex-direction: row;
+           flex-direction: row;
 
         }
 
         div[class*="box"] {
-            background-color: green;
+            
             border: 1px solid;
-            padding: 5px;
+            padding: 10px;
+            background-color: green;
         }
        .box1 { height: 150px; }
        .box2 { height:20px; }
           .second{
             display: flex;
             flex-wrap: wrap;
-            align-content: baseline;
+            align-content:flex-start;
            }
         .box3 { height:20px; }
         .third{
             display: flex;
             flex-wrap: wrap;
-            align-content: end;
+            align-content:flex-end;
            }
     </style>
 </head>
