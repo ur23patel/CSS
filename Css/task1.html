@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .container {
+            border: 2px solid; 
+            display: flex;
+           }
+
+        .Description {
+            width: 60%;
+            flex-wrap: wrap;
+            background-color: #000000df;
+            text-align:end;
+            padding: 40px;
+            line-height: 160%;
+
+        }
+
+        a {
+
+            border: 2px solid white;
+            background-color: red;
+            border-radius: 20px;
+            height: 40px;
+            width: 40px;
+            margin-top: 100px;
+            margin-left: -20px;
+            
+        }
+        .one{
+            
+            background-image: url(../images/task1_column/1.png);
+        }
+        .two{
+            
+            background-image: url(../images/task1_column/2.png);
+        }
+        .three{
+            
+            background-image: url(../images/task1_column/3.jpeg);
+        }
+        .btn {
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            color: white;
+        }
+        h4 {
+            text-transform: uppercase;
+            color: red;
+            padding: 20px;
+            
+        }
+
+        p {
+            color: gray;
+            font-size: xx-small;
+        }
+        .img {
+            flex-wrap: wrap;
+            filter: blur(1px);
+            width:fit-content;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Description">
+            <h2>our services <span style="color: red;">|</span></h2>
+            <h4>web design</h4>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry, lorem ip sum has<br>
+                been the industry's standard dummy text ever.
+            </p>
+            <h4>print design</h4>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry,<br>
+                lorem ip sum has been the industry's standard dummy text ever.
+            </p>
+            <h4>photography</h4>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry, lorem ip sum has<br>
+                been the industry's standard dummy text ever.
+            </p>
+        </div>
+        <div class="btn">
+            <a href="#" class="one"></a>
+            <a href="#" class="two"></a>
+            <a href="#" class="three"></a>
+        </div>
+        <div class="img">
+            <img src="C:\Users\erurv\OneDrive\Desktop\Css\images\task1_column\ipad.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
