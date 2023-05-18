@@ -1,63 +1,244 @@
-<!DOCTYPE html>
-<html lang="en">
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
-</head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
-<body>
-    <!-- Hedaer section will contain menu START-->
-    <header>
-        <div class="main-menu">
-            <h1 class="txt-center">Deli//Break</h1>
-            <nav class="d-flex">
-                <div class="col">
-                    <ul class="navbar">
-                        <li><a href="#">Beverages</a></li>
-                        <li><a href="#">Desserts</a></li>
-                        <li><a href="#">Promotions</a></li>
-                        <li><a href="#">Star Program</a></li>
-                        <li><a href="#">Branches</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col ml-a">
-                    <div class="d-flex">
-                        <ul class="social-icon-menu">
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                        </ul>
-                        <span>Quality and taste // Guaranteed</span>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!-- Hedaer section will contain menu START-->
-    <main>
-        <!-- main top section START -->
-        <section id="main-top-section">
-            
-        </section>
-        <!-- main top section END -->
-        <!-- Healthy and delicious section START -->
-        <section id="healthy-and-delicious">
-            
-        </section>
-        <!-- Healthy and delicious section END -->
-    </main>
-    <footer>
+body{
+    background-color: #f1e8e3;
 
-    </footer>
-</body>
+}
 
-</html>
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-rr {
+    flex-direction: row-reverse;
+}
+
+.ml-a {
+    margin-left: auto;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-light {
+    color: white;
+}
+
+.px-3 {
+    padding: 0 3em;
+}
+
+.position-fixed {
+    /* position: fixed; */
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex: 1 0 0%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================== HEADER STYLE =================== */
+
+
+.main-menu {
+    width: 1180px;
+    background-color: #3a3a3a;
+    margin: 0 auto;
+    padding: 50px 30px 20px;
+    border-radius: 0px 0px 80px 80px;
+    box-shadow: 0 90px 50px -70px gray;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.social-icon-menu {
+    position: relative;
+    padding: 0 20px;
+}
+
+.social-icon-menu::after {
+    content: ' ';
+    border-right: 2px solid grey;
+    position: absolute;
+    height: 20px;
+    top: 2px;
+    right: 7px;
+}
+
+h1 {
+    color: #b68e76;
+    font-family: 'Poppins', serif;
+    font-size: 72px;
+
+}
+
+
+/* ========================== MAIN TOP SECTION STYLE ======================== */
+
+#main-top-section {
+    background: url(../images/top-bg.png)no-repeat 0px 200px /contain;
+    align-items: center;
+
+}
+
+.card-main-header {
+    margin: 155px 0;
+    padding: 150px 0px 150px 150px;
+    width: 50%;
+}
+
+.card-main-header h2 {
+    font-size: 37px;
+    letter-spacing: 1px;
+    line-height: 49px;
+    font-weight: 300;
+    font-family: "Roboto Slab";
+}
+
+.card-main-header p {
+    font-size: 34px;
+    letter-spacing: 1px;
+    line-height: 41px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Roboto Slab";
+    margin: 30px 0;
+    margin-right: 50px;
+}
+
+.btn {
+    border-radius: 21px;
+    padding: 7px 50px;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #b68e76;
+}
+
+.btn-secondary {
+    background-color: #3a3a3a;
+}
+.btn-third {
+    background-color:#b68e76;
+    width: 11em;
+}
+
+/* =================healthy-and-delicious=============================== */
+#healthy-and-delicious>.container {
+    /* border: 2px solid; */
+    /* border-radius: 100px; */
+    /* height: 100vh; */
+    width: 80vw;
+    display: flex;
+    padding: 0;
+    
+}
+
+#healthy-and-delicious>.container>.left-content {
+    border-radius: 100px 0px 0px 100px;
+    background-color: #fff;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+#healthy-and-delicious h2 {
+    font-size: 39px;
+    letter-spacing: 0px;
+    line-height: 47px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+
+}
+
+#healthy-and-delicious h3 {
+    font-size: 32px;
+    letter-spacing: 0px;
+    line-height: 42px;
+    color: #000000;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+
+}
+
+#healthy-and-delicious h4 {
+    font-size: 27px;
+    letter-spacing: 0px;
+    line-height: 33px;
+    color: #b68e76;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+  
+}
+#healthy-and-delicious p {
+    font-size: 8px;
+}
+#healthy-and-delicious ul{
+    list-style:none;
+}
+#healthy-and-delicious ul li:before {
+    content: "+";
+    padding-right: 5px;
+  }
+  #healthy-and-delicious img {
+    width: 50%;
+}
+
+
+  
