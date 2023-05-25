@@ -248,7 +248,184 @@ input::placeholder{
 }
 /* beverage-courses END */
 
+/* beverage menu start */
+
+#beverage-menu .container {
+    display: flex;
+    justify-content: center;
+}
+
+.right-content {
+    background-color: #000;
+    border-radius: 0px 110px 110px 0px;
+    padding-left: 50px;
+}
+
+.right-content .card-top {
+    color: white;
+}
+
+.right-content .card-mid {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.mid-left {
+    width: 80%;
+}
+
+.mid-right {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.right-content .card-bot {
+    color: white;
+    padding-top: 100px;
+    /* background-color: #b68e76; */
+}
+
+#beverage-menu h2 {
+    font-size: 66px;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+}
+
+#beverage-menu h3 {
+    font-size: 34px;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+
+}
+
+#beverage-menu h4 {
+    font-size: 21px;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+}
+
+#beverage-menu .mid-left p {
+    width: 511px;
+    height: 63px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Barlow";
+}
+
+#beverage-menu a {
+    font-size: 34px;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+    color: #fff;
+    line-height: 110px;
+
+}
+
+.beverage-menu-p1>p {
+    width: 440px;
+}
+
+.beverage-menu-p1 {
+    width: 100%;
+    font-size: 14px;
+    color: #000000;
+    font-family: "Barlow";
+    padding: 0px 0px 0px 150px;
+    margin: 37px 0px 0px 150px;
+    justify-content: center;
+
+}
+
+.right-content {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(182, 142, 118, 1) 25%, rgba(0, 0, 0, 1) 25%);
+}
+
+/* -------------------Suger-Free------------------- */
+#suger-free {
+    background-image: url(../images/suger-free.png);
+    background-size: cover;
+    background-position: -188px 0;
+    background-repeat: no-repeat;
+    padding-left: 200px;
+}
+
+.card-suger-free {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 460px;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+#suger-free h2 {
+    font-size: 76px;
+    font-weight: 100;
+    font-family: "Roboto Slab";
+    margin-top: 100px;
+}
+
+#suger-free h3 {
+    font-size: 39px;
+    font-weight: 600;
+    font-family: "Roboto Slab";
+    margin-top: 30px;
+
+}
+
+#suger-free h4 {
+    width: 80%;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    margin-top: 100px;
+}
+
+#suger-free a {
+    margin-top: 30px;
+    width: 235px;
+
+}
+
+
+
+/* learn more about us START*/
+#learn-more>.container {
+    display: flex;
+    padding: 0;
+
+}
+
+#learn-more>.container>.row{
+    border-radius: 20% 0px 0px 20%;
+    background-color: #fff;
+    width: 50%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 2px 10px 49px rgb(94, 92, 92);
+
+}
+
+#learn-more h5 {
+
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #30302f;
+    font-weight: 800;
+    font-family: "Barlow";
+}
+
+
 /* favorite-seasonal  START*/
+
 .favorite-seasonal {
     padding: 50px 50px 0px 130px;
 }
@@ -263,6 +440,5 @@ input::placeholder{
 .z-index-min-1{
     z-index: -1;
 }
-/* favorite-seasonal  END*/
 
   
