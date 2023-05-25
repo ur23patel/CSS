@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>task1</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* border: 1px solid; */
+            height:25vh;
+            justify-content: center;
+        }
+
+        .container {
+            width: 1180px;
+            margin: 0 auto;
+            padding-right: 30px;
+            padding-left: 30px;
+            row-gap: 10px;
+            flex-wrap: wrap;
+        
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            position: relative;
+        }
+
+        .col-3 {
+            width: 20%;
+            flex: auto 0 0%;
+            padding-right: 20px;
+            padding-left: 20px;
+            margin-top: 10px;
+            text-align: center;
+           
+        }
+         .img{
+            max-width: 100%;
+          height: auto;
+        }
+         /* [*effect] */
+         img[class$="-effect"]{
+            transition: all 2s;
+        }
+
+        .scale-effect:hover{ transform: scale(2); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                 <img src="C:\Users\erurv\OneDrive\Desktop\Css\25Animation\task1\water.jpg" class="scale-effect" width="200px" alt="">
+            </div>
+
+            <div class="col-3">
+                <img src="C:\Users\erurv\OneDrive\Desktop\Css\25Animation\task1\bird.jpg" class="scale-effect" width="200px" alt="">
+            </div>
+
+            <div class="col-3">
+                <img src="C:\Users\erurv\OneDrive\Desktop\Css\25Animation\task1\duck.jpg" class="scale-effect" width="200px" alt="">
+            </div>
+</body>
+
+</html>
