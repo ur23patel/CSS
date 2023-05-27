@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.background{
+    background-color: rgba(0, 0, 0, 0.749);
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.bg{
+    background-image: url(Images/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -10;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.row {
+    height: 100px;
+    padding-top: 125px;
+    
+}
+
+
+
+
+.text {
+
+    display: flex;
+    color: white;
+    width: 99vw;
+    flex-direction: column;
+}
+
+.text>h2{
+
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 33px;
+    letter-spacing: 3px;
+    font-family: "Source Sans Pro";
+    padding-bottom: 18px;
+}
+
+
+.text>p {
+
+    margin: 0px 0px;
+    width: 1180px;
+    height: 39px;
+    font-size: 16px;
+    color: #f4f5f9;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+}
+.text h2:hover{
+    color: red;
+}
+
+.text h2 {
+    display: inline-block;
+    margin: auto;
+}
+
+.text p {
+    text-align: center;
+}
+
+.hr{
+    border-radius: 0%;
+    width: 150px;
+    height: 5px;
+    border: none; 
+} 
+.border {
+    margin: auto;
+}
+
+div[class*=img] {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    width: 155px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div[class*=img]>h3 {
+    width: 10rem;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -50px;
+
+}
+
+.content{
+    visibility: hidden;
+    width: 155px;
+    margin-top: 50px;
+
+}
+
+
+
+img:hover {
+    scale: 1.2;
+    background-color: #e74c3c;
+    opacity: 0.8;
+    visibility: visible;
+    border: 2px solid red;
+    
+}
+img:hover +.content {
+    opacity: 0.8;
+    visibility: visible;
+    color:red;
+    
+  
+}
+
+
+img:hover +.content>p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 3px solid red;
+
+}
+
+.img1 {
+    
+    top: 348px;
+    left: 192px;
+}
+
+.img2 {
+    top: 344px;
+    left: 385px;
+}
+
+.img3 {
+    top: 373px;
+    left: 577px;
+}
+
+.img4 {
+    top: 391px;
+    left: 768px;
+
+}
+
+.img5 {
+    top: 371px;
+    left: 945px;
+}
+
