@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+        }
+
+
+        header li {
+            display: inline-block;
+            font-size: 100px;
+            margin: 30px;
+            text-transform: uppercase;
+            font-weight:bold ;
+            
+        }
+
+       
+        body {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: #000;
+            color: grey;
+        }
+
+        .css {
+            position: relative;
+            padding: 0 5px;
+        }
+
+
+        .css::before {
+            content: ' ';
+            border-right: 10px solid blue;
+            position: absolute;
+            height: 100px;
+            top: 15px;
+            right: 200px;
+        }
+
+        .css::after {
+            content: ' ';
+            border-left: 10px solid blue;
+            position: absolute;
+            height: 100px;
+            top: 15px;
+            left: 200px;
+        }
+        </style>
+</head>
+
+<body>
+    <header>
+        <li>HTML</li>
+        <li class="css">CSS</li>
+        <li>JS</li>
+    </header>
+</body>
+
+</html>
