@@ -349,46 +349,56 @@ input::placeholder{
 #suger-free {
     background-image: url(../images/suger-free.png);
     background-size: cover;
+    padding-left: 200px;
     background-position: -188px 0;
     background-repeat: no-repeat;
-    padding-left: 200px;
+    
 }
 
-.card-suger-free {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.suger-free-card {
+
     width: 460px;
     height: 100%;
+    flex-wrap: wrap;
     margin-bottom: 100px;
+    flex-direction: column;   
+    justify-content: space-around;
+    
+    
 }
 
 #suger-free h2 {
-    font-size: 76px;
+
+    margin-top: 100px;
+    font-size: 50px;
     font-weight: 100;
     font-family: "Roboto Slab";
-    margin-top: 100px;
+    
 }
 
 #suger-free h3 {
-    font-size: 39px;
+
+    margin-top: 30px;
+    font-size: 35px;
     font-weight: 600;
     font-family: "Roboto Slab";
-    margin-top: 30px;
+   
 
 }
 
 #suger-free h4 {
+
+    margin-top: 30px;
     width: 80%;
-    font-size: 26px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 300;
     font-family: "Roboto Slab";
-    margin-top: 100px;
+    
 }
 
 #suger-free a {
     margin-top: 30px;
-    width: 235px;
+    width: 240px;
 
 }
 
@@ -441,4 +451,65 @@ input::placeholder{
     z-index: -1;
 }
 
-  
+/* sign up */
+
+.signup {
+    background-color: #b68e76;
+    padding: 80px;
+    z-index: -1;
+
+}
+.text {
+
+font-size: 38px;
+line-height: 46px;
+color: #000000;
+font-weight: 250;
+font-family: "Roboto Slab";
+text-align: center;
+}
+.text h2 {
+    font-size: 123px;
+    letter-spacing: 1px;
+    line-height: 162px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+
+.text h4{
+    font-size: 38px;
+line-height: 46px;
+color: #000000;
+font-weight: 250;
+font-family: "Roboto Slab";
+text-align: center;
+}
+.text p {
+
+    width: 1105px;
+    height: 156px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #30302f;
+    font-weight: 400;
+    font-family: "Barlow";
+    text-align: center;
+    padding: 0px 0px 0px 150px;
+    margin: 37px 0px 0px 150px;
+    justify-content: center;
+
+}
+.btn-secondary{
+width: 234px;
+height: 49px;
+font-size: 22px;
+line-height: 30px;
+color: #fefefc;
+font-weight: 700;
+font-family: "Roboto Slab";
+padding: 7px 50px;
+margin:20px;
+}
+
