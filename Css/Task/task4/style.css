@@ -154,7 +154,11 @@ img:hover +.content>p{
 }
 
 
-
+svg {
+    padding-top: 60px;
+    position: absolute;
+    z-index: 1;
+}
 
 
 img {
